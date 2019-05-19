@@ -1,2 +1,9 @@
+spring:
+  application:
+    name: weather-citylist
 server:
-  port: 8081
+  port: 8082
+eureka:
+  client:
+    service-url:
+      default-zone: http://127.0.0.1:8083/eureka/
